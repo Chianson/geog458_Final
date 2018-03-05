@@ -9,91 +9,106 @@
             bearing: 1,
             center: [-122.30156565, 47.6011886],
             zoom: 18,
-            pitch: 1 
+            pitch: 1,
+            duration: 1
         },
         'Multi-Service-Center:Federal-Way': {
             bearing: 1,
             center: [-122.318042154362, 47.3007686442953],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'YWCA:Renton': {
             bearing: 1,
             center: [-122.203563458549, 47.4814093],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'Solid-Ground:North-Seattle': {
             bearing: 1,
             center: [-122.332551801326, 47.69870805],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'YMCA-Young-Adult-Services-Drop-in-Center': {
             bearing: 1,
             center: [-122.3303895, 47.6182332],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'YouthCare’s-James-W.-Ray-Orion-Center': {
             bearing: 1,
             center: [-122.3303895, 47.6182332],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'Peace-for-the-Streets-by-Kids-from-the-Streets': {
             bearing: 1,
             center: [-122.3077338, 47.6155844],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'Nexus-Youth-&-Families': {
             bearing: 1,
             center: [-122.218837787879, 47.2995776464646],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'Teen-Feed': {
             bearing: 1,
             center: [-122.31273440028, 47.66432385],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'University-District-Youth-Center': {
             bearing: 1,
             center: [-122.311670474999, 47.66185935],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'Catholic Community Services:Bellevue': {
             bearing: 1,
             center: [-122.192249916315, 47.6114129],
             zoom: 18,
-            pitch: 1 
+            pitch: 1,
+            duration: 1
         },
         'New-Bethlehem-Day-Center:Kirkland': {
             bearing: 1,
             center: [-122.18098627459, 47.6758031],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'New-Horizons': {
             bearing: 1,
             center: [-122.349536087159, 47.6171479],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'Friends-of-Youth-Redmond': {
             bearing: 1,
             center: [-122.122910653061, 47.6797058163265],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         },
         'VA-Puget-Sound’s-Community-Housing-and-Outreach-Services': {
             bearing: 1,
             center: [-122.2109979, 47.4810182],
             zoom: 18,
-            pitch: 1
+            pitch: 1,
+            duration: 1
         }
     };
     
