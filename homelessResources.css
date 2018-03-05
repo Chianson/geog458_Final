@@ -1,11 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-
 }
 
 #map {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
@@ -21,7 +20,7 @@ body {
     border-radius: 3px;    
 }
 
- .legend-key {
+.legend-key {
  	display: inline-block; 
  	border-radius: 50%; 
  	width: 10px; 
@@ -29,15 +28,16 @@ body {
  	margin-right: 5px;
  }
 
- .legend-pop {
+.legend-pop {
  	display: inline-block; 
  	border-radius: 10%; 
  	width: 10px; 
  	height: 10px; 
  	margin-right: 5px;
- }
+}
 
-#features {
+#features-title {
+    position: fixed;
     top: 0;
     right: 0;
     height: 100px;
@@ -46,11 +46,37 @@ body {
 }
 
 #legend {
-  bottom: 0;
-  right: 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  line-height: 18px;
-  height: 190px;
-  margin-bottom: 40px;
-  width: 180px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 18px;
+    height: 190px;
+    margin-bottom: 40px;
+    width: 180px;
+}
+
+#features {
+    width: 30%;
+    margin-right: 30%;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    background-color: #fafafa;
+}
+
+section {
+    padding:  25px 50px;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0.25;
+    font-size: 13px;
+}
+
+section.active {
+    opacity: 1;
+}
+
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 200px;
 }
