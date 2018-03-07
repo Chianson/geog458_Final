@@ -13,12 +13,10 @@
             duration: 5000
         },
         'Multi-Service-Center:Federal-Way': {
-
-            bearing: 90,
+            bearing: 0,
             center: [-122.318042154362, 47.3007686442953],
-            zoom: 13,
-            pitch: 30,
-
+            zoom: 16,
+            pitch: 0,
             duration: 5000
         },
         'YWCA:Renton': {
@@ -36,48 +34,48 @@
             duration: 5000
         },
         'YMCA-Young-Adult-Services-Drop-in-Center': {
-            bearing: 1,
-            center: [-122.3303895, 47.6182332],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            bearing: 235,
+            center: [-122.301253, 47.5841884],
+            zoom: 16,
+            pitch: 90,
+            duration: 5000
         },
         'YouthCare’s-James-W.-Ray-Orion-Center': {
-            bearing: 1,
+            bearing: -45,
             center: [-122.3303895, 47.6182332],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 90,
+            duration: 5000
         },
         'Peace-for-the-Streets-by-Kids-from-the-Streets': {
-            bearing: 1,
+            bearing: -90,
             center: [-122.3077338, 47.6155844],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 17,
+            pitch: 90,
+            duration: 5000
         },
         'Nexus-Youth-&-Families': {
-            bearing: 1,
+            bearing: 0,
             center: [-122.218837787879, 47.2995776464646],
             zoom: 18,
-            pitch: 1,
-            duration: 1
+            pitch: 0,
+            duration: 5000
         },
         'Teen-Feed': {
-            bearing: 1,
+            bearing: 135,
             center: [-122.31273440028, 47.66432385],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 19,
+            pitch: 90,
+            duration: 5000
         },
         'University-District-Youth-Center': {
-            bearing: 1,
+            bearing: -10,
             center: [-122.311670474999, 47.66185935],
             zoom: 18,
-            pitch: 1,
-            duration: 1
+            pitch: 90,
+            duration: 5000
         },
-        'Catholic Community Services:Bellevue': {
+        'Catholic-Community-Services:Bellevue': {
             bearing: 1,
             center: [-122.192249916315, 47.6114129],
             zoom: 18,
@@ -180,7 +178,8 @@
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ 
+            	'<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
             .addTo(map);
         });
 
@@ -196,7 +195,9 @@
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + '<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ 
+            	'<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + 
+            	'<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
             .addTo(map);
         });
 
@@ -222,7 +223,7 @@
       	legend.appendChild(item);
     
         var layers = ['Food Bank', 'Homeless Shelters'];
-        var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
+        var images = ["url('/Users/utakokase/Desktop/geog458_Final-master 2/data/icon/shelter_icon.png')", 
                         "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
         for (i = 0; i < layers.length; i++) {
           var layer = layers[i];
