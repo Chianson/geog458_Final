@@ -5,13 +5,6 @@
     //set's the first active shelter in the scroll box
     var activesheltersName = 'Catholic-Community-Services:Seattle';
     var shelters = { //map of shelters and their location
-        'DefaultView':{
-            bearing: 0,
-            center: [-122.3321, 47.5],
-            zoom: 9,
-            pitch: 0,
-            duration: 5000
-        },
         'Catholic-Community-Services:Seattle': {
             bearing: 270,
             center: [-122.30156565, 47.6011886],
@@ -20,12 +13,10 @@
             duration: 5000
         },
         'Multi-Service-Center:Federal-Way': {
-
-            bearing: 90,
+            bearing: 0,
             center: [-122.318042154362, 47.3007686442953],
-            zoom: 13,
-            pitch: 30,
-
+            zoom: 16,
+            pitch: 0,
             duration: 5000
         },
         'YWCA:Renton': {
@@ -43,46 +34,46 @@
             duration: 5000
         },
         'YMCA-Young-Adult-Services-Drop-in-Center': {
-            bearing: 1,
-            center: [-122.3303895, 47.6182332],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            bearing: 235,
+            center: [-122.301253, 47.5841884],
+            zoom: 16,
+            pitch: 90,
+            duration: 5000
         },
         'YouthCare’s-James-W.-Ray-Orion-Center': {
-            bearing: 1,
+            bearing: -45,
             center: [-122.3303895, 47.6182332],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 90,
+            duration: 5000
         },
         'Peace-for-the-Streets-by-Kids-from-the-Streets': {
-            bearing: 1,
+            bearing: -90,
             center: [-122.3077338, 47.6155844],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 17,
+            pitch: 90,
+            duration: 5000
         },
         'Nexus-Youth-&-Families': {
-            bearing: 1,
+            bearing: 0,
             center: [-122.218837787879, 47.2995776464646],
             zoom: 18,
-            pitch: 1,
-            duration: 1
+            pitch: 0,
+            duration: 5000
         },
         'Teen-Feed': {
-            bearing: 1,
+            bearing: 135,
             center: [-122.31273440028, 47.66432385],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 19,
+            pitch: 90,
+            duration: 5000
         },
         'University-District-Youth-Center': {
-            bearing: 1,
+            bearing: -10,
             center: [-122.311670474999, 47.66185935],
             zoom: 18,
-            pitch: 1,
-            duration: 1
+            pitch: 90,
+            duration: 5000
         },
         'Catholic-Community-Services:Bellevue': {
             bearing: 1,
@@ -138,20 +129,16 @@
         map.on("load", function() {
             loadLegend();
             
-            //Create 3D buildings and add to the bottom layer
+            //3d building code here///////////////////////
             var layers = map.getStyle().layers;
 
             var labelLayerId;
-            
             for (var i = 0; i < layers.length; i++) {
                 if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
                     labelLayerId = layers[i].id;
-                    console.log(i);
                     break;
                 }
             }
-            
-            //Add 3d building layer
             map.addLayer({
                 'id': '3d-buildings',
                 'source': 'composite',
@@ -177,7 +164,46 @@
                     'fill-extrusion-opacity': .6
                 }
             }, labelLayerId);
+            //////////////////////////////////////////////
         });
+
+        // add pop up for homeless shelters 
+        map.on('click', 'homeless-shelters', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var address = e.features[0].properties.address;
+        var address_no_space = address.replace(/ /gi, '+');
+        var name = e.features[0].properties.name;
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
+            .addTo(map);
+        });
+
+        // add popup for foodbank
+        map.on('click', 'food-banks', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var address = e.features[0].properties.Address;
+        var address_no_space = address.replace(/ /gi, '+');
+        var name = e.features[0].properties.Name;
+        var website = e.features[0].properties.Website;
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + '<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
+            .addTo(map);
+        });
+
+        // change cursor when its at a marker 
+        map.on('mouseenter', 'homeless-shelters', function () {map.getCanvas().style.cursor = 'pointer';});
+        map.on('mouseenter', 'food-banks', function () {map.getCanvas().style.cursor = 'pointer';});
+        // change it back to a pointer when it leaves.
+        map.on('mouseleave', 'homeless-shelters', function () {map.getCanvas().style.cursor = '';});
+        map.on('mouseleave', 'food-banks', function () {map.getCanvas().style.cursor = '';});
     };
     
     /**
@@ -193,21 +219,22 @@
       	item.appendChild(value);
       	legend.appendChild(item);
     
-    	var layers = ['Food Bank', 'Homeless Shelters'];
-    	var colors = ['#FF0A0E', '#0986FB'];
-        for (var i = 0; i < layers.length; i++) {
-            var layer = layers[i];
-            var color = colors[i];
-            var item = document.createElement('div');
-            var key = document.createElement('span');
-            key.className = 'legend-key';
-            key.style.backgroundColor = color;
-            var value = document.createElement('span');
-            value.innerHTML = layer;
-            item.appendChild(key);
-            item.appendChild(value);
-            legend.appendChild(item);
-      	}
+        var layers = ['Food Bank', 'Homeless Shelters'];
+        var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
+                        "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
+        for (i = 0; i < layers.length; i++) {
+          var layer = layers[i];
+          var image = images[i];
+          var item = document.createElement('div');
+          var key = document.createElement('span');
+          key.className = 'legend-key';
+          key.style.backgroundImage = image;
+          var value = document.createElement('span');
+          value.innerHTML = layer;
+          item.appendChild(key);
+          item.appendChild(value);
+          legend.appendChild(item);
+        }
     
       	var item = document.createElement('div'); 
       	var value = document.createElement('span');
