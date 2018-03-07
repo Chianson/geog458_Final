@@ -6,32 +6,32 @@
     var activesheltersName = 'Catholic-Community-Services:Seattle';
     var shelters = { //map of shelters and their location
         'Catholic-Community-Services:Seattle': {
-            bearing: 1,
+            bearing: 270,
             center: [-122.30156565, 47.6011886],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 120,
+            duration: 5000
         },
         'Multi-Service-Center:Federal-Way': {
-            bearing: 1,
+            bearing: 0,
             center: [-122.318042154362, 47.3007686442953],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 0,
+            duration: 5000
         },
         'YWCA:Renton': {
-            bearing: 1,
+            bearing: -90,
             center: [-122.203563458549, 47.4814093],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 90,
+            duration: 5000
         },
         'Solid-Ground:North-Seattle': {
-            bearing: 1,
+            bearing: 235,
             center: [-122.332551801326, 47.69870805],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 13,
+            pitch: 90,
+            duration: 5000
         },
         'YMCA-Young-Adult-Services-Drop-in-Center': {
             bearing: 1,
@@ -118,20 +118,53 @@
         map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/hongc7/cje7hqpqi28xl2rnpyz5necrx', //replace with the style made in class
+            //style:'mapbox://styles/mapbox/light-v9',
             center: [-122.3321, 47.5], //centered on King County
             zoom: 9,
             bearing: 27,
-            pitch: 45
+            pitch: 45,
+            hash: true
         });
         //waits until map loads before adding features
         map.on("load", function() {
-            // map.addSource("homeless_shelters", { //add homeless data source
-            //     "type": "geojson", //reads it in as a geojson file
-            //     "data": "./homeless_shelters.geojson"
-            // });
+            loadLegend();
             
-        //load the legend
-        loadLegend();
+            //3d building code here///////////////////////
+            var layers = map.getStyle().layers;
+
+            var labelLayerId;
+            for (var i = 0; i < layers.length; i++) {
+                if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
+                    labelLayerId = layers[i].id;
+                    break;
+                }
+            }
+            map.addLayer({
+                'id': '3d-buildings',
+                'source': 'composite',
+                'source-layer': 'building',
+                'filter': ['==', 'extrude', 'true'],
+                'type': 'fill-extrusion',
+                'minzoom': 15,
+                'paint': {
+                    'fill-extrusion-color': '#aaa',
+        
+                    // use an 'interpolate' expression to add a smooth transition effect to the
+                    // buildings as the user zooms in
+                    'fill-extrusion-height': [
+                        "interpolate", ["linear"], ["zoom"],
+                        15, 0,
+                        15.05, ["get", "height"]
+                    ],
+                    'fill-extrusion-base': [
+                        "interpolate", ["linear"], ["zoom"],
+                        15, 0,
+                        15.05, ["get", "min_height"]
+                    ],
+                    'fill-extrusion-opacity': .6
+                }
+            }, labelLayerId);
+            //////////////////////////////////////////////
         });
 
         // add pop up for homeless shelters 
