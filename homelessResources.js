@@ -84,7 +84,7 @@
             pitch: 1,
             duration: 1
         },
-        'Catholic Community Services:Bellevue': {
+        'Catholic-Community-Services:Bellevue': {
             bearing: 1,
             center: [-122.192249916315, 47.6114129],
             zoom: 18,
