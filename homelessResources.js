@@ -13,10 +13,12 @@
             duration: 5000
         },
         'Multi-Service-Center:Federal-Way': {
-            bearing: 0,
+
+            bearing: 90,
             center: [-122.318042154362, 47.3007686442953],
-            zoom: 16,
-            pitch: 0,
+            zoom: 13,
+            pitch: 30,
+
             duration: 5000
         },
         'YWCA:Renton': {
