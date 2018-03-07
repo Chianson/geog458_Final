@@ -67,6 +67,7 @@ body {
 
 section {
     padding:  25px 50px;
+    padding-top: 50px;
     line-height: 25px;
     border-bottom: 1px solid #ddd;
     opacity: 0.25;
