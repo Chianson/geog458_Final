@@ -12,21 +12,22 @@ window.onload = function() {
 	    zoom: 9
 	});
 	// add location legend 
-	 var item = document.createElement('div'); 
+	var item = document.createElement('div'); 
   	var value = document.createElement('span');
   	value.innerHTML = "<strong>Homeless Resources</strong>";
   	item.appendChild(value);
   	legend.appendChild(item);
 
 	var layers = ['Food Bank', 'Homeless Shelters'];
-	var colors = ['#FF0A0E', '#0986FB'];
+	var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
+					"url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
     for (i = 0; i < layers.length; i++) {
       var layer = layers[i];
-      var color = colors[i];
+      var image = images[i];
       var item = document.createElement('div');
       var key = document.createElement('span');
       key.className = 'legend-key';
-      key.style.backgroundColor = color;
+      key.style.backgroundImage = image;
       var value = document.createElement('span');
       value.innerHTML = layer;
       item.appendChild(key);
@@ -43,7 +44,7 @@ window.onload = function() {
   	// add population density legend 
   	var pop_density = ['2355/mi', '3922/mi', '5388/mi', '8676/mi', '53437/mi'];
   	var pop_colors = ['#FFEDA0', '#FED976', '#FEB24C', '#FD8D3C', '#E31A1C'];
-  	    for (i = 0; i < pop_density.length; i++) {
+  	for (i = 0; i < pop_density.length; i++) {
       var pop_d = pop_density[i];
       var pop_c = pop_colors[i];
       var item = document.createElement('div');
