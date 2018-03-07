@@ -13,25 +13,27 @@
             duration: 5000
         },
         'Multi-Service-Center:Federal-Way': {
+
             bearing: 90,
             center: [-122.318042154362, 47.3007686442953],
             zoom: 13,
             pitch: 30,
+
             duration: 5000
         },
         'YWCA:Renton': {
-            bearing: 1,
+            bearing: -90,
             center: [-122.203563458549, 47.4814093],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 90,
+            duration: 5000
         },
         'Solid-Ground:North-Seattle': {
-            bearing: 1,
+            bearing: 235,
             center: [-122.332551801326, 47.69870805],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 13,
+            pitch: 90,
+            duration: 5000
         },
         'YMCA-Young-Adult-Services-Drop-in-Center': {
             bearing: 1,
