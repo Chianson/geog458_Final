@@ -168,6 +168,7 @@
         // change it back to a pointer when it leaves.
         map.on('mouseleave', 'homeless-shelters', function () {map.getCanvas().style.cursor = '';});
         map.on('mouseleave', 'food-banks', function () {map.getCanvas().style.cursor = '';});
+
     };
     
     /**
@@ -199,7 +200,7 @@
           item.appendChild(value);
           legend.appendChild(item);
         }
-    
+      
       	var item = document.createElement('div'); 
       	var value = document.createElement('span');
       	value.innerHTML = "<br><strong>Population Density</strong>";

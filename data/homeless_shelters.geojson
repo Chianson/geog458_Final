@@ -1,0 +1,170 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3015657,47.6011886 ]
+    },
+    "properties": {
+    "name":"Catholic Community Services - Seattle",
+    "address":"100 23rd Ave. S., Seattle, WA 98144"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3180422,47.30076864 ]
+    },
+    "properties": {
+    "name":"Multi-Service Center- Federal Way",
+    "address":"1200 S. 336th St., Federal Way, WA 98003"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2035635,47.4814093 ]
+    },
+    "properties": {
+    "name":"YWCA- Renton",
+    "address":"1010 S. 2nd St., Renton, WA 98057"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3325518,47.69870805 ]
+    },
+    "properties": {
+    "name":"Solid Ground - North Seattle",
+    "address":"9600 College Way N. Seattle, WA 98103"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.301253,47.5841884 ]
+    },
+    "properties": {
+    "name":"YMCA Young Adult Services Drop in Center",
+    "address":"2100 24th Ave S, Seattle, WA 98144"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3303895,47.6182332 ]
+    },
+    "properties": {
+    "name":"YouthCare’s James W. Ray Orion Center",
+    "address":"1828 Yale Avenue, Seattle, WA 98101"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3077338,47.6155844 ]
+    },
+    "properties": {
+    "name":"Peace for the Streets by Kids from the Streets (PSKS)",
+    "address":"1609 19th Avenue, Seattle, WA 98122"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2188378,47.29957765 ]
+    },
+    "properties": {
+    "name":"Nexus Youth & Families",
+    "address":"915 H Street SE, Auburn, WA 98002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3127344,47.66432385 ]
+    },
+    "properties": {
+    "name":"Teen Feed",
+    "address":"4740 B University Way NE, Seattle, WA 98105"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3116705,47.66185935 ]
+    },
+    "properties": {
+    "name":"University District Youth Center",
+    "address":"4516 15th Avenue NE, Seattle, WA 98105"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1922499,47.6114129 ]
+    },
+    "properties": {
+    "name":"Catholic Community Services - Bellevue",
+    "address":"11061 N.E. 2nd St. Bellevue, WA 98004"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1809863,47.6758031 ]
+    },
+    "properties": {
+    "name":"New Bethlehem Day Center Kirkland",
+    "address":"11920 N.E. 80th St.Kirkland, WA 98033"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3495361,47.6171479 ]
+    },
+    "properties": {
+    "name":"New Horizons",
+    "address":"2709 Third Avenue, Seattle, WA 98121"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.1229107,47.67970582 ]
+    },
+    "properties": {
+    "name":"Friends of Youth Redmond",
+    "address":"16225 NE 87th Street, #1, Redmond, WA 98052"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2109979,47.4810182 ]
+    },
+    "properties": {
+    "name":"VA Puget Sound Community Outreach and Housing Services (CHOS) Renton Walk-in Clinic",
+    "address":"419 S 2nd Street, Suite 2, Renton, WA 98057"
+    }
+  }
+]
+}
