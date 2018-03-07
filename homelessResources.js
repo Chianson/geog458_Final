@@ -138,13 +138,14 @@
         map.on('click', 'homeless-shelters', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var address = e.features[0].properties.address;
+        var address_no_space = address.replace(/ /gi, '+');
         var name = e.features[0].properties.name;
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<h3>' + name + '</h3>' + '<p>'+ address + '</p>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
             .addTo(map);
         });
 
@@ -152,6 +153,7 @@
         map.on('click', 'food-banks', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var address = e.features[0].properties.Address;
+        var address_no_space = address.replace(/ /gi, '+');
         var name = e.features[0].properties.Name;
         var website = e.features[0].properties.Website;
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
@@ -159,16 +161,16 @@
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<h3>' + name + '</h3>' + '<p>'+ address + '<br>' + website + '</p>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + '<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
             .addTo(map);
         });
+
         // change cursor when its at a marker 
         map.on('mouseenter', 'homeless-shelters', function () {map.getCanvas().style.cursor = 'pointer';});
         map.on('mouseenter', 'food-banks', function () {map.getCanvas().style.cursor = 'pointer';});
         // change it back to a pointer when it leaves.
         map.on('mouseleave', 'homeless-shelters', function () {map.getCanvas().style.cursor = '';});
         map.on('mouseleave', 'food-banks', function () {map.getCanvas().style.cursor = '';});
-
     };
     
     /**
@@ -200,7 +202,7 @@
           item.appendChild(value);
           legend.appendChild(item);
         }
-      
+    
       	var item = document.createElement('div'); 
       	var value = document.createElement('span');
       	value.innerHTML = "<br><strong>Population Density</strong>";
