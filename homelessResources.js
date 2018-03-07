@@ -178,7 +178,8 @@
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ 
+            	'<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
             .addTo(map);
         });
 
@@ -194,7 +195,9 @@
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + '<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ 
+            	'<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + 
+            	'<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
             .addTo(map);
         });
 
@@ -220,7 +223,7 @@
       	legend.appendChild(item);
     
         var layers = ['Food Bank', 'Homeless Shelters'];
-        var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
+        var images = ["url('/Users/utakokase/Desktop/geog458_Final-master 2/data/icon/shelter_icon.png')", 
                         "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
         for (i = 0; i < layers.length; i++) {
           var layer = layers[i];
