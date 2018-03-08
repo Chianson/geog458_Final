@@ -76,39 +76,39 @@
             duration: 5000
         },
         'Catholic-Community-Services:Bellevue': {
-            bearing: 1,
+            bearing: 0,
             center: [-122.192249916315, 47.6114129],
             zoom: 18,
-            pitch: 1,
-            duration: 1
+            pitch: 0,
+            duration: 5000
         },
         'New-Bethlehem-Day-Center:Kirkland': {
-            bearing: 1,
+            bearing: 0,
             center: [-122.18098627459, 47.6758031],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 0,
+            duration: 5000
         },
         'New-Horizons': {
-            bearing: 1,
+            bearing: 235,
             center: [-122.349536087159, 47.6171479],
             zoom: 18,
-            pitch: 1,
-            duration: 1
+            pitch: 90,
+            duration: 5000
         },
         'Friends-of-Youth-Redmond': {
-            bearing: 1,
+            bearing: 0,
             center: [-122.122910653061, 47.6797058163265],
             zoom: 18,
-            pitch: 1,
-            duration: 1
+            pitch: 0,
+            duration: 5000
         },
         'VA-Puget-Sound’s-Community-Housing-and-Outreach-Services': {
-            bearing: 1,
+            bearing: 90,
             center: [-122.2109979, 47.4810182],
-            zoom: 18,
-            pitch: 1,
-            duration: 1
+            zoom: 16,
+            pitch: 90,
+            duration: 5000
         }
     };
     
@@ -178,8 +178,7 @@
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ 
-            	'<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '</p>' + '</div>')
             .addTo(map);
         });
 
@@ -195,9 +194,7 @@
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ 
-            	'<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + 
-            	'<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
+            .setHTML('<div align = "center">' + '<h3>' + name + '</h3>' + '<p> Address: '+ '<a href = "http://www.google.com/maps/place/' + address_no_space + '/">' + address + '</a>' + '<br> Website: ' + '<a href = ' + website + '>' + website + '<a/>' + '</p>' + '</div>')
             .addTo(map);
         });
 
@@ -223,7 +220,7 @@
       	legend.appendChild(item);
     
         var layers = ['Food Bank', 'Homeless Shelters'];
-        var images = ["url('/Users/utakokase/Desktop/geog458_Final-master 2/data/icon/shelter_icon.png')", 
+        var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
                         "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
         for (i = 0; i < layers.length; i++) {
           var layer = layers[i];
