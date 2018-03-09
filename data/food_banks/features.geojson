@@ -1,0 +1,617 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "8319 8th Ave S",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Friendly Island Of Tonga Seniors",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.322996,
+          47.528846
+        ],
+        "type": "Point"
+      },
+      "id": "03fa8d117ff85ccd5eabfae840d1d445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1531 Western Ave 5th floor",
+        "Website": "http://www.pikemarketseniorcenter.org/",
+        "Name": "Downtown Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.341519,
+          47.60863
+        ],
+        "type": "Point"
+      },
+      "id": "0689715a8e7ef315c64f006536849508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "5050 8th Ave NE",
+        "Website": "http://www.blessed-sacrament.org/foodbank.html",
+        "Name": "Blessed Sacrament Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.319416,
+          47.665359
+        ],
+        "type": "Point"
+      },
+      "id": "100ec29d5a9899fd35827abc997d0ee9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "5740 M L King Jr Way S",
+        "Website": "http://www.filcomseattle.org/index.htm",
+        "Name": "Tahanan Filipino Services",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.28778,
+          47.550936
+        ],
+        "type": "Point"
+      },
+      "id": "11a8c21e6b36617260e7bba1122dcb9a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "2524 16th Ave S",
+        "Website": "http://www.elcentrodelaraza.com/programs/foodbank.htm",
+        "Name": "El Centro De La Raza",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.31198,
+          47.580786
+        ],
+        "type": "Point"
+      },
+      "id": "1472246fec638be3d7b43b3762fb8e7e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "611 12th Ave S #300",
+        "Website": "http://www.seattleindiancenter.org/",
+        "Name": "Seattle Indian Center",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.317349,
+          47.597396
+        ],
+        "type": "Point"
+      },
+      "id": "1476aac2af2b352c999c9eedcaa7db9f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "409 Maynard Ave S",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Indo-China Chinese Elderly Association",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.325177,
+          47.5991
+        ],
+        "type": "Point"
+      },
+      "id": "190db415266eb3c6ea1ddffb0bd81d82"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "611 20th Ave",
+        "Website": "http://www.seniorservices.org/online/detail.asp?id=3249&case=1",
+        "Name": "The Food Bank At St. Marys",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.306445,
+          47.60728
+        ],
+        "type": "Point"
+      },
+      "id": "2367874732b3bab8d5e66e820241a870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "2615 S Jackson St",
+        "Website": "http://www.emergencyfeeding.org/",
+        "Name": "Emergency Feeding Program",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.298464,
+          47.599165
+        ],
+        "type": "Point"
+      },
+      "id": "2bfd9d124bbed4c42108353019aafd6a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "3909 S Sunny View Dr",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Bo Da Dao Trang",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.284441,
+          47.515561
+        ],
+        "type": "Point"
+      },
+      "id": "38d3d47a08fca80fdf957e8f400e92f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "9800 8th Ave SW",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Cambodian Senior Club",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.345149,
+          47.515155
+        ],
+        "type": "Point"
+      },
+      "id": "3a61cd1e3af687a58d11bc0732d21382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "720 8th Ave S",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Asian Counseling And Referral Services",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.322334,
+          47.596483
+        ],
+        "type": "Point"
+      },
+      "id": "3a84d05a5ae7a63fc39232b19b100a55"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "6230 Beacon Ave S",
+        "Website": "",
+        "Name": "Beacon Avenue Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.300331,
+          47.546769
+        ],
+        "type": "Point"
+      },
+      "id": "416bb693ce258c0280f4e89cf0343808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "4205 Rainier Ave S",
+        "Website": "",
+        "Name": "Northwest Community Services",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.288711,
+          47.565566
+        ],
+        "type": "Point"
+      },
+      "id": "471fd3de4757c0941c747d5b663a1cce"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "3518 SW Genesee St.",
+        "Website": "http://www.westseattlefoodbank.org/",
+        "Name": "West Seattle Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.376998,
+          47.564761
+        ],
+        "type": "Point"
+      },
+      "id": "5e46abd424673e4eb8b2d225bfd4a8d3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1601 16th Ave",
+        "Website": "http://www.jfsseattle.org/services/emergency.html",
+        "Name": "Jewish Family Service Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.311587,
+          47.615313
+        ],
+        "type": "Point"
+      },
+      "id": "66ab1fc9ff1ec305c2fd5269a307292b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1215 Thomas St",
+        "Website": "http://www.scn.org/frnf/immanuel.htm",
+        "Name": "Cascade Immanuel Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.332595,
+          47.620733
+        ],
+        "type": "Point"
+      },
+      "id": "6d0fc2e9af034849cee9e2895fc92021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "11827 Renton Ave S",
+        "Website": "http://www.oecagency.org/services.php",
+        "Name": "Operational Emergency Center",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.245348,
+          47.496876
+        ],
+        "type": "Point"
+      },
+      "id": "75cfc3b9d27a1a763834d5c345f7db3e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1002 E Seneca St",
+        "Website": "http://www.lifelongaidsalliance.org/csb",
+        "Name": "Chicken Soup Brigade",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.319318,
+          47.612259
+        ],
+        "type": "Point"
+      },
+      "id": "7b814946891a60db6a3c220c62e0d21c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "7500 Greenwood Ave N",
+        "Website": "http://www.prlc.org/foodbank.htm",
+        "Name": "Phinney Ridge Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.355178,
+          47.683311
+        ],
+        "type": "Point"
+      },
+      "id": "83b1340e8318cdaaf281e8ff35674bb3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "7005 24th Ave NW",
+        "Website": "http://www.ballardfoodbank.org",
+        "Name": "Ballard Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.387661,
+          47.679582
+        ],
+        "type": "Point"
+      },
+      "id": "84f94ab1ec024eaac0f13a98c4b433f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1017 S Jackson St",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Vietnamese Friendship Association",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.31938,
+          47.599102
+        ],
+        "type": "Point"
+      },
+      "id": "85c175a6a68375f8441af2333d340f92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "9050 16th Ave SW",
+        "Website": "http://salvationarmynw.org/volunteer/foodbank.asp",
+        "Name": "Salvation Army White Center",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.354989,
+          47.522378
+        ],
+        "type": "Point"
+      },
+      "id": "948683c651e18189ad341d23f22f2f1d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "722 18th Ave E",
+        "Website": "http://www.campseattle.org/Home/Food+Bank/default.aspx",
+        "Name": "Central Area Motivation Program",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.308541,
+          47.625456
+        ],
+        "type": "Point"
+      },
+      "id": "9b49dad7d099e37f2c8b6d40b041d310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "7422 South 126th Street",
+        "Website": "http://www.seattle.gov/humanservices/emergencyservices/FoodBanksSeattleKingCounty.pdf",
+        "Name": "Spiritual Miracles Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.24084,
+          47.49142
+        ],
+        "type": "Point"
+      },
+      "id": "b0906fbd67825c4590dd916fd5067f74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "8201 10th Ave S",
+        "Website": "http://www.providence.org/washington/regina_house/default.htm",
+        "Name": "Providence Regina House",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.320351,
+          47.529771
+        ],
+        "type": "Point"
+      },
+      "id": "b76bf77224803f995691148391e52c4b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "153 14th Ave S",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Korean Senior Club Ii",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.314268,
+          47.601242
+        ],
+        "type": "Point"
+      },
+      "id": "c8ba717910d49a308853ed33a700bcec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "2800 1st Ave",
+        "Website": "http://pslaonline.org/PSLA%20Preview/Our%20Services.htm",
+        "Name": "Puget Sound Labor Agency",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.351499,
+          47.616432
+        ],
+        "type": "Point"
+      },
+      "id": "cac2d51335717a1be78ee27e259231c4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "12707 30th Ave NE",
+        "Website": "http://www.northhelpline.org/",
+        "Name": "Lake City Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.296462,
+          47.721181
+        ],
+        "type": "Point"
+      },
+      "id": "cbd19edf219c90a8473b19d4a19751b7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "5950 4th Ave S",
+        "Website": "http://www.stvincentdepaul-seattle.org/index.html",
+        "Name": "Society Of St. Vincent De Paul-Georgetown Service Center",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.329456,
+          47.549814
+        ],
+        "type": "Point"
+      },
+      "id": "db0bc3cbc308a5a6eb98456487cd7a5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "104 17th Ave",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Seattle Korean Elders Association",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.310136,
+          47.601781
+        ],
+        "type": "Point"
+      },
+      "id": "deaced07403ca4679f9d6ec9aa53ccda"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "4731 15th Ave NE",
+        "Website": "http://www.udistrictfoodbank.org/",
+        "Name": "University District Service League",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.312083,
+          47.66331
+        ],
+        "type": "Point"
+      },
+      "id": "e302a2cdfabf4b53f823e95097e0a151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1101 Pike St",
+        "Website": "http://salvationarmynw.org/volunteer/foodbank.asp",
+        "Name": "Salvation Army Food Bank",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.328816,
+          47.613412
+        ],
+        "type": "Point"
+      },
+      "id": "e6bdbe6a5e9b7774ce8f4dc75fb1b157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1501 N 45th St",
+        "Website": "http://www.familyworksseattle.org/food_bank.htm",
+        "Name": "Familyworks-Wallingford",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.339139,
+          47.661302
+        ],
+        "type": "Point"
+      },
+      "id": "ec58acfb9316c3ecabc2b8b6f9c7d638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "8319 8th Ave S",
+        "Website": "http://acrs.org/programs/nutrition.htm",
+        "Name": "Samoan Senior Club",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.322996,
+          47.528846
+        ],
+        "type": "Point"
+      },
+      "id": "edf32b7e9a9a97e50d32a7f3f2608ffd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "9747 Greenwood Ave N",
+        "Website": "http://www.voaww.org/voa3f.cfm?SectionGroupsID=11&SectionListsID=11&PageID=234",
+        "Name": "Volunteers Of America-Greenwood",
+        "Feature": "Food Banks"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.355521,
+          47.699736
+        ],
+        "type": "Point"
+      },
+      "id": "ff5a6dc03c67889a93738ecc0ec24a44"
+    }
+  ],
+  "type": "FeatureCollection"
+}
