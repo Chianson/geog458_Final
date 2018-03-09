@@ -85,39 +85,39 @@
             duration: 1
         },
         'Catholic-Community-Services:Bellevue': {
-            bearing: 0,
+            bearing: 1,
             center: [-122.192249916315, 47.6114129],
             zoom: 18,
-            pitch: 0,
-            duration: 5000
+            pitch: 1,
+            duration: 1
         },
         'New-Bethlehem-Day-Center:Kirkland': {
-            bearing: 0,
+            bearing: 1,
             center: [-122.18098627459, 47.6758031],
-            zoom: 16,
-            pitch: 0,
-            duration: 5000
+            zoom: 18,
+            pitch: 1,
+            duration: 1
         },
         'New-Horizons': {
-            bearing: 235,
+            bearing: 1,
             center: [-122.349536087159, 47.6171479],
             zoom: 18,
-            pitch: 90,
-            duration: 5000
+            pitch: 1,
+            duration: 1
         },
         'Friends-of-Youth-Redmond': {
-            bearing: 0,
+            bearing: 1,
             center: [-122.122910653061, 47.6797058163265],
             zoom: 18,
-            pitch: 0,
-            duration: 5000
+            pitch: 1,
+            duration: 1
         },
         'VA-Puget-Sound’s-Community-Housing-and-Outreach-Services': {
-            bearing: 90,
+            bearing: 1,
             center: [-122.2109979, 47.4810182],
-            zoom: 16,
-            pitch: 90,
-            duration: 5000
+            zoom: 18,
+            pitch: 1,
+            duration: 1
         }
     };
     
