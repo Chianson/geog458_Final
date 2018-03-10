@@ -144,7 +144,6 @@
             for (var i = 0; i < layers.length; i++) {
                 if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
                     labelLayerId = layers[i].id;
-                    console.log(i);
                     break;
                 }
             }
@@ -206,12 +205,22 @@
             myImage.src = images[i];
             myImage.style.height = "20px";
             myImage.style.width = "20px";
+            
+            //attempt to fix spacing//
+            myImage.style.cssFloat = "left"; //puts image on the left
+            myImage.style.paddingBottom = "10px";
+            //////////////////////////
             thisKey.appendChild(myImage);
             
             thisKey.className = 'legend-key';
-
+  
             var thisValue = document.createElement('span');
             thisValue.innerHTML = layer;
+            
+            //attempt to fix spacing//
+            thisValue.style.cssFloat = "right";//puts text on right of image
+            //////////////////////////
+            
             thisItem.appendChild(thisKey);
             thisItem.appendChild(thisValue);
             legend.appendChild(thisItem);
