@@ -135,7 +135,6 @@
         });
         //waits until map loads before adding features
         map.on("load", function() {
-            loadLegend();
             
             //Create 3D buildings and add to the bottom layer
             var layers = map.getStyle().layers;
@@ -194,21 +193,25 @@
       	item.appendChild(value);
       	legend.appendChild(item);
     
-    	var layers = ['Food Bank', 'Homeless Shelters'];
-    	var colors = ['#FF0A0E', '#0986FB'];
+
+        var layers = ['Food Bank', 'Homeless Shelters'];
+        var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
+                        "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
         for (var i = 0; i < layers.length; i++) {
             var layer = layers[i];
-            var color = colors[i];
+            var image = images[i];
             var item = document.createElement('div');
             var key = document.createElement('span');
             key.className = 'legend-key';
-            key.style.backgroundColor = color;
+            key.style.backgroundImage = image;
+
             var value = document.createElement('span');
             value.innerHTML = layer;
             item.appendChild(key);
             item.appendChild(value);
             legend.appendChild(item);
-      	}
+        }
+
     
       	var item = document.createElement('div'); 
       	var value = document.createElement('span');
@@ -318,26 +321,7 @@
         // change it back to a pointer when it leaves.
         map.on('mouseleave', 'homeless-shelters', function () {map.getCanvas().style.cursor = '';});
         map.on('mouseleave', 'food-banks', function () {map.getCanvas().style.cursor = '';});
-        
-        var layers = ['Food Bank', 'Homeless Shelters'];
-        var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
-                        "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
-        for (var i = 0; i < layers.length; i++) {
-            var layer = layers[i];
-            var image = images[i];
-            var item = document.createElement('div');
-            var key = document.createElement('span');
-            key.className = 'legend-key';
-            key.style.backgroundImage = image;
-            var value = document.createElement('span');
-            value.innerHTML = layer;
-            item.appendChild(key);
-            item.appendChild(value);
-            legend.appendChild(item);
-          
-        var item = document.createElement('div'); 
-       	var value = document.createElement('span');
-        }
+
     }
 })();
 
