@@ -193,6 +193,7 @@
       	item.appendChild(value);
       	legend.appendChild(item);
     
+
         var layers = ['Food Bank', 'Homeless Shelters'];
         var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
                         "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
@@ -203,12 +204,14 @@
             var key = document.createElement('span');
             key.className = 'legend-key';
             key.style.backgroundImage = image;
+
             var value = document.createElement('span');
             value.innerHTML = layer;
             item.appendChild(key);
             item.appendChild(value);
             legend.appendChild(item);
         }
+
     
       	var item = document.createElement('div'); 
       	var value = document.createElement('span');
