@@ -191,25 +191,30 @@
       	var value = document.createElement('span');
       	value.innerHTML = "<strong>Homeless Resources</strong>";
       	item.appendChild(value);
+      	var legend = document.getElementById("legend");
       	legend.appendChild(item);
     
 
-        var layers = ['Food Bank', 'Homeless Shelters'];
-        var images = ["url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/food_icon.svg')", 
-                        "url('https://github.com/Chianson/geog458_Final/blob/master/data/icon/shelter_icon.svg')"];
+        var layers = [" Food Bank", " Homeless Shelters"];
+        var images = ["./data/food_icon.png", "./data/shelter_icon.png"];
         for (var i = 0; i < layers.length; i++) {
             var layer = layers[i];
-            var image = images[i];
-            var item = document.createElement('div');
-            var key = document.createElement('span');
-            key.className = 'legend-key';
-            key.style.backgroundImage = image;
+            var thisItem = document.createElement('div');
+            var thisKey = document.createElement('span');
 
-            var value = document.createElement('span');
-            value.innerHTML = layer;
-            item.appendChild(key);
-            item.appendChild(value);
-            legend.appendChild(item);
+            var myImage = document.createElement('img');
+            myImage.src = images[i];
+            myImage.style.height = "20px";
+            myImage.style.width = "20px";
+            thisKey.appendChild(myImage);
+            
+            thisKey.className = 'legend-key';
+
+            var thisValue = document.createElement('span');
+            thisValue.innerHTML = layer;
+            thisItem.appendChild(thisKey);
+            thisItem.appendChild(thisValue);
+            legend.appendChild(thisItem);
         }
 
     
