@@ -192,35 +192,23 @@
       	item.appendChild(value);
       	var legend = document.getElementById("legend");
       	legend.appendChild(item);
-    
-
+      
         var layers = [" Food Bank", " Homeless Shelters"];
         var images = ["./data/food_icon.png", "./data/shelter_icon.png"];
         for (var i = 0; i < layers.length; i++) {
             var layer = layers[i];
             var thisItem = document.createElement('div');
             var thisKey = document.createElement('span');
-
             var myImage = document.createElement('img');
             myImage.src = images[i];
-            myImage.style.height = "20px";
-            myImage.style.width = "20px";
-            
-            //attempt to fix spacing//
-            myImage.style.cssFloat = "left"; //puts image on the left
-            myImage.style.paddingBottom = "10px";
-            //////////////////////////
-            thisKey.appendChild(myImage);
-            
+            myImage.style.height = "17px";
+            myImage.style.width = "17px";
+            thisKey.appendChild(myImage);            
             thisKey.className = 'legend-key';
-  
             var thisValue = document.createElement('span');
             thisValue.innerHTML = layer;
-            
-            //attempt to fix spacing//
-            thisValue.style.cssFloat = "right";//puts text on right of image
-            //////////////////////////
-            
+            thisValue.style.margin = "0 0 10px 3px";
+
             thisItem.appendChild(thisKey);
             thisItem.appendChild(thisValue);
             legend.appendChild(thisItem);
