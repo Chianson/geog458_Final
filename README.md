@@ -10,7 +10,7 @@
  
 
 ## MapBox Map
-[https://staff.washington.edu/utakok/458finalproject/homelessResources.html#9/47.5/-122.3321/0/0](https://staff.washington.edu/utakok/458finalproject/homelessResources.html)  
+[https://staff.washington.edu/utakok/458finalproject/homelessResources.html#9/47.5/-122.3321/0/0](https://staff.washington.edu/utakok/458finalproject/homelessResources.html#9/47.5/-122.3321/0/0)  
 
 
 ## Story Map
