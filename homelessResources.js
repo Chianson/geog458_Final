@@ -192,7 +192,7 @@
       	item.appendChild(value);
       	var legend = document.getElementById("legend");
       	legend.appendChild(item);
-    
+      
         var layers = [" Food Bank", " Homeless Shelters"];
         var images = ["./data/food_icon.png", "./data/shelter_icon.png"];
         for (var i = 0; i < layers.length; i++) {
@@ -208,6 +208,7 @@
             var thisValue = document.createElement('span');
             thisValue.innerHTML = layer;
             thisValue.style.margin = "0 0 10px 3px";
+
             thisItem.appendChild(thisKey);
             thisItem.appendChild(thisValue);
             legend.appendChild(thisItem);
