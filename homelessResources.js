@@ -129,8 +129,8 @@
             //style:'mapbox://styles/mapbox/light-v9',
             center: [-122.3321, 47.5], //centered on King County
             zoom: 9,
-            bearing: 27,
-            pitch: 45,
+            bearing: 0,
+            pitch: 0,
             hash: true
         });
         //waits until map loads before adding features
