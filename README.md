@@ -10,7 +10,7 @@
  
 
 ## MapBox Map
-[http://students.washington.edu/hongc7/homelessResources.html#9.67/47.5626/-122.3132/14.8/52](http://students.washington.edu/hongc7/homelessResources.html#9.67/47.5626/-122.3132/14.8/52)  
+[http://students.washington.edu/hongc7/homelessResources.html#9.67/47.5626/-122.3132/0/0](http://students.washington.edu/hongc7/homelessResources.html#9.67/47.5626/-122.3132/0/0)  
 
 
 ## Story Map
