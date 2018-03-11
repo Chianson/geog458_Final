@@ -18,4 +18,6 @@
 
 
 ## Images 
---> add images after Utako completed the legend markers 
+![](https://github.com/Chianson/geog458_Final/blob/master/data/image/image1.png)    
+![](https://github.com/Chianson/geog458_Final/blob/master/data/image/image2.png)    
+    
