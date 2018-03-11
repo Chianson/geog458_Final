@@ -10,7 +10,7 @@
  
 
 ## MapBox Map
-[http://students.washington.edu/hongc7/homelessResources.html#9.67/47.5626/-122.3132/0/0](http://students.washington.edu/hongc7/homelessResources.html#9.67/47.5626/-122.3132/0/0)  
+[https://staff.washington.edu/utakok/458finalproject/homelessResources.html](https://staff.washington.edu/utakok/458finalproject/homelessResources.html)  
 
 
 ## Story Map
@@ -18,4 +18,6 @@
 
 
 ## Images 
---> add images after Utako completed the legend markers 
+![](https://github.com/Chianson/geog458_Final/blob/master/data/image/image1.png)    
+![](https://github.com/Chianson/geog458_Final/blob/master/data/image/image2.png)    
+    
