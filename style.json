@@ -66,18 +66,19 @@
                 "name": "Country labels",
                 "collapsed": true
             }
-        }
+        },
+        "mapbox:trackposition": false
     },
     "center": [
-        -122.23109157934852,
-        47.63889059209666
+        -122.22318671352917,
+        47.59244916546041
     ],
-    "zoom": 10.199082256920269,
+    "zoom": 11.323814546847425,
     "bearing": 0,
     "pitch": 0,
     "sources": {
         "composite": {
-            "url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7,hongc7.7xdbl9oh,hongc7.2obtdgjx",
+            "url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7,hongc7.7xdbl9oh,hongc7.cjehgh9bo01iv2wqstjqgm023-6v2s3,hongc7.cjeaaa5e700102wqhmbihi8vb-7pa5a,hongc7.3uj3j3e7",
             "type": "vector"
         }
     },
@@ -4903,7 +4904,6 @@
         {
             "id": "road-pedestrian-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 12,
@@ -4985,7 +4985,6 @@
         {
             "id": "road-street-low",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -5058,7 +5057,6 @@
         {
             "id": "road-street_limited-low",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -5131,7 +5129,6 @@
         {
             "id": "road-service-link-track-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 14,
@@ -5233,7 +5230,6 @@
         {
             "id": "road-street_limited-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -5332,7 +5328,6 @@
         {
             "id": "road-street-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -5431,7 +5426,6 @@
         {
             "id": "road-main-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -5531,7 +5525,6 @@
         {
             "id": "road-primary-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -5626,7 +5619,6 @@
         {
             "id": "road-motorway_link-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 10,
@@ -5726,7 +5718,6 @@
         {
             "id": "road-trunk_link-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -5826,7 +5817,6 @@
         {
             "id": "road-trunk-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 5,
@@ -5922,7 +5912,6 @@
         {
             "id": "road-motorway-case",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -6001,7 +5990,6 @@
         {
             "id": "road-construction",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 14,
@@ -6106,7 +6094,6 @@
         {
             "id": "road-sidewalks",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 16,
@@ -6202,7 +6189,6 @@
         {
             "id": "road-path",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -6303,7 +6289,6 @@
         {
             "id": "road-steps",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -6397,7 +6382,6 @@
         {
             "id": "road-trunk_link",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -6452,7 +6436,6 @@
         {
             "id": "road-motorway_link",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 10,
@@ -6507,7 +6490,6 @@
         {
             "id": "road-pedestrian",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 12,
@@ -6582,7 +6564,6 @@
         {
             "id": "road-service-link-track",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 14,
@@ -6639,7 +6620,6 @@
         {
             "id": "road-street_limited",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -6705,7 +6685,6 @@
         {
             "id": "road-street",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 11,
@@ -6771,7 +6750,6 @@
         {
             "id": "road-secondary-tertiary",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -6838,7 +6816,6 @@
         {
             "id": "road-primary",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -6900,7 +6877,6 @@
         {
             "id": "road-trunk",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 5,
@@ -6955,7 +6931,6 @@
         {
             "id": "road-motorway",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "filter": [
@@ -8144,7 +8119,6 @@
         {
             "id": "road-rail",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "road",
             "minzoom": 13,
@@ -8192,46 +8166,6 @@
             }
         },
         {
-            "id": "export-output-4n7cog",
-            "type": "fill",
-            "metadata": {},
-            "source": "composite",
-            "source-layer": "Export_Output-4n7cog",
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {
-                "fill-color": {
-                    "base": 1,
-                    "type": "exponential",
-                    "property": "pop_dens",
-                    "stops": [
-                        [
-                            0.000084472,
-                            "#FFEDA0"
-                        ],
-                        [
-                            0.000140689,
-                            "#FED976"
-                        ],
-                        [
-                            0.000193269,
-                            "#FEB24C"
-                        ],
-                        [
-                            0.000311213,
-                            "#FD8D3C"
-                        ],
-                        [
-                            0.001916788,
-                            "#E31A1C"
-                        ]
-                    ]
-                },
-                "fill-opacity": 0.78
-            }
-        },
-        {
             "id": "place-neighbourhood",
             "type": "symbol",
             "source": "composite",
@@ -8272,6 +8206,45 @@
                 "text-halo-width": 1,
                 "text-color": "hsl(0, 0%, 62%)",
                 "text-halo-blur": 0
+            }
+        },
+        {
+            "id": "export-output-4n7cog",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "Export_Output-4n7cog",
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": {
+                    "base": 1,
+                    "type": "exponential",
+                    "property": "pop_dens",
+                    "stops": [
+                        [
+                            0.000084472,
+                            "#FFEDA0"
+                        ],
+                        [
+                            0.000140689,
+                            "#FED976"
+                        ],
+                        [
+                            0.000193269,
+                            "#FEB24C"
+                        ],
+                        [
+                            0.000311213,
+                            "#FD8D3C"
+                        ],
+                        [
+                            0.001916788,
+                            "#E31A1C"
+                        ]
+                    ]
+                },
+                "fill-opacity": 0.78
             }
         },
         {
@@ -9795,24 +9768,51 @@
             }
         },
         {
-            "id": "map-2h8dy2",
-            "type": "circle",
+            "id": "foodbank-apls16",
+            "type": "symbol",
             "source": "composite",
-            "source-layer": "map-2h8dy2",
+            "source-layer": "foodbank-apls16",
             "layout": {
-                "visibility": "visible"
+                "icon-image": "image2vector%20(3)",
+                "icon-size": 0.05
+            },
+            "paint": {}
+        },
+        {
+            "id": "food-banks",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "food_bank_renamed",
+            "filter": [
+                "==",
+                "$type",
+                "Point"
+            ],
+            "layout": {
+                "icon-image": "image2vector%20(3)",
+                "icon-size": 0.05
             },
             "paint": {
-                "circle-radius": 5,
-                "circle-color": "hsl(0, 81%, 54%)",
-                "circle-blur": 0.5
+                "icon-opacity": 0.7
             }
+        },
+        {
+            "id": "homeless-shelters",
+            "type": "symbol",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "homeless_shelters",
+            "layout": {
+                "icon-image": "image2vector%20(1)",
+                "icon-size": 0.05
+            },
+            "paint": {}
         }
     ],
     "created": "2018-02-28T19:45:34.221Z",
     "id": "cje7hqpqi28xl2rnpyz5necrx",
-    "modified": "2018-02-28T20:08:02.225Z",
+    "modified": "2018-03-11T19:43:03.120Z",
     "owner": "hongc7",
-    "visibility": "private",
+    "visibility": "public",
     "draft": false
 }

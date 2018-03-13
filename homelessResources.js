@@ -13,31 +13,31 @@
             duration: 5000
         },
         'Catholic-Community-Services:Seattle': {
-            bearing: 270,
+            bearing: 135,
             center: [-122.30156565, 47.6011886],
             zoom: 16,
-            pitch: 120,
+            pitch: 90,
             duration: 4000
         },
         'Multi-Service-Center:Federal-Way': {
 
-            bearing: 0,
+            bearing: 105,
             center: [-122.318042154362, 47.3007686442953],
             zoom: 16,
-            pitch: 0,
+            pitch: 90,
             duration: 4000
         },
         'YWCA:Renton': {
-            bearing: -90,
+            bearing: -95,
             center: [-122.203563458549, 47.4814093],
             zoom: 16,
             pitch: 90,
             duration: 4000
         },
         'Solid-Ground:North-Seattle': {
-            bearing: 235,
+            bearing: -90,
             center: [-122.332551801326, 47.69870805],
-            zoom: 13,
+            zoom: 15,
             pitch: 90,
             duration: 4000
         },
@@ -65,12 +65,12 @@
         'Nexus-Youth-&-Families': {
             bearing: 0,
             center: [-122.218837787879, 47.2995776464646],
-            zoom: 18,
-            pitch: 0,
+            zoom: 14,
+            pitch: 90,
             duration: 4000
         },
         'Teen-Feed': {
-            bearing: 155,
+            bearing: 90,
             center: [-122.31273440028, 47.66432385],
             zoom: 19,
             pitch: 90,
@@ -84,10 +84,10 @@
             duration: 4000
         },
         'Catholic-Community-Services:Bellevue': {
-            bearing: 0,
+            bearing: -95,
             center: [-122.192249916315, 47.6114129],
-            zoom: 18,
-            pitch: 0,
+            zoom: 16,
+            pitch: 90,
             duration: 4000
         },
         'New-Bethlehem-Day-Center:Kirkland': {
