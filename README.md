@@ -10,14 +10,29 @@
  
 
 ## MapBox Map
-[https://staff.washington.edu/utakok/458finalproject/homelessResources.html#9/47.5/-122.3321/0/0](https://staff.washington.edu/utakok/458finalproject/homelessResources.html#9/47.5/-122.3321/0/0)  
+[http://students.washington.edu/hongc7/homelessResources.html#9/47.5/-122.3321](http://students.washington.edu/hongc7/homelessResources.html#9/47.5/-122.3321)  
 
 
 ## Story Map
 [http://uw-geog.maps.arcgis.com/apps/Cascade/index.html?appid=68870290b34d42c78850ad5ebccc20b0](http://uw-geog.maps.arcgis.com/apps/Cascade/index.html?appid=68870290b34d42c78850ad5ebccc20b0)    
 
+## Data / Github References
+[HTML, JavaScript and CSS](https://github.com/UW-Geog458-Win2018/Group1)
+
+[Food Banks](https://github.com/UW-Geog458-Win2018/Group1/tree/master/data/food_banks)
+
+[Homeless Shelters](https://github.com/UW-Geog458-Win2018/Group1/tree/master/data/homeless_shelters)
+
+[Icons for Homeless Shelters and Food Banks](https://github.com/UW-Geog458-Win2018/Group1/tree/master/data/iconSvg)
+
+[King County Population Data](https://github.com/UW-Geog458-Win2018/Group1/tree/master/data/pop)
+
+[Parsed Data](https://github.com/UW-Geog458-Win2018/Group1/tree/master/data/scraping)
 
 ## Images 
-![](https://github.com/Chianson/geog458_Final/blob/master/data/image/image1.png)    
+#### MapBox version of King County
+![](https://github.com/Chianson/geog458_Final/blob/master/data/image/image1.png)
+
+#### This image shows this particular Homeless Shelter and the closest resource to it
 ![](https://github.com/Chianson/geog458_Final/blob/master/data/image/image2.png)    
     
